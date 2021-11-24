@@ -1,0 +1,20 @@
+digraph {
+  node [fontsize=18, fontcolor="red"];
+  n0 -> n1 [label="1", weight="1"];
+  n0 -> n2 [label="2", weight="2"];
+  n0 -> n3 [label="3", weight="3"];
+  n0 -> n4 [label="4", weight="4"];
+  n1 -> n6 [label="1", weight="1"];
+  n2 -> n6 [label="7", weight="7"];
+  n3 -> n5 [label="5", weight="5"];
+  n3 -> n6 [label="8", weight="8"];
+  n4 -> n5 [label="5", weight="5"];
+  n4 -> n7 [label="9", weight="9"];
+  n4 -> n9 [label="3", weight="3"];
+  n5 -> n6 [label="7", weight="7"];
+  n6 -> n7 [label="4", weight="4"];
+  n6 -> n8 [label="1", weight="1"];
+  n7 -> n8 [label="3", weight="3"];
+  n7 -> n9 [label="4", weight="4"];
+  n10 -> n9 [label="1", weight="1"];
+}

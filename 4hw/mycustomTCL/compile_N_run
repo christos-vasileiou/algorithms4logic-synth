@@ -1,0 +1,9 @@
+ #!/bin/bash
+make clean
+make
+sleep 2
+echo
+echo "   ### NOW START THE PROGRAM! ###"
+echo
+sleep 2
+valgrind --track-origins=yes ./customTCL
